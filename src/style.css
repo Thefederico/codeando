@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-box {
+  @apply resize-none w-full h-full bg-dark p-4 outline-none shadow-sm shadow-gray-100 font-mono;
+}
